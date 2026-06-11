@@ -1,0 +1,90 @@
+body {
+  background-color: #0f1117;
+  color: #e8eaf6;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #1a1d27;
+  border-bottom: 1px solid #2e3250;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.navbar-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e8eaf6;
+}
+
+.navbar-icon {
+  font-size: 22px;
+}
+
+.navbar-text {
+  color: #8b90b8 !important;
+  font-size: 14px;
+}
+
+/* CARDS */
+.card {
+  background-color: #1a1d27;
+  border: 1px solid #2e3250;
+  border-radius: 10px;
+}
+
+.card-label {
+  font-size: 14px;
+  color: #8b90b8;
+  margin-bottom: 6px;
+}
+
+.card-amount {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+/*  INCOME CARD */
+.income-card {
+  border-left: 4px solid #4caf7d;
+}
+
+.income-card .card-amount {
+  color: #4caf7d;
+}
+
+/* EXPENSE CARD */
+.expense-card {
+  border-left: 4px solid #f06262;
+}
+
+.expense-card .card-amount {
+  color: #f06262;
+}
+
+/* BALANCE CARD */
+.balance-card {
+  border-left: 4px solid #6c63ff;
+}
+
+.balance-card .card-amount {
+  color: #6c63ff;
+}
+
+/* ADD BUTTON */
+#addBtn {
+  background-color: #6c63ff;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#addBtn:hover {
+  background-color: #574fd6;
+}
