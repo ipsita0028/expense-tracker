@@ -1,6 +1,9 @@
+/* ══════════════════════════════
+   BASE
+══════════════════════════════ */
 body {
-  background-color: #0f1117;
-  color: #e8eaf6;
+  background-color: #979dac;
+  color: #001233;
   font-family: "Segoe UI", sans-serif;
   margin: 0px;
   padding: 0px;
@@ -8,83 +11,126 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #1a1d27;
-  border-bottom: 1px solid #2e3250;
+  background-color: #001845;
+  border-bottom: 1px solid #33415c;
   padding-left: 16px;
   padding-right: 16px;
 }
-
 .navbar-title {
   font-size: 20px;
   font-weight: 700;
-  color: #e8eaf6;
+  color: #0466c8;
 }
-
 .navbar-icon {
   font-size: 22px;
 }
-
 .navbar-text {
-  color: #8b90b8 !important;
+  color: #7d8597;
   font-size: 14px;
 }
 
 /* CARDS */
 .card {
-  background-color: #1a1d27;
-  border: 1px solid #2e3250;
+  background-color: #ffffff;
+  border: 1px solid #7d8597;
   border-radius: 10px;
 }
-
 .card-label {
   font-size: 14px;
-  color: #8b90b8;
+  color: #5c677d;
   margin-bottom: 6px;
 }
-
 .card-amount {
   font-size: 28px;
   font-weight: 700;
   margin: 0px;
 }
 
-/*  INCOME CARD */
 .income-card {
-  border-left: 4px solid #4caf7d;
+  border-left: 4px solid #0466c8;
 }
-
 .income-card .card-amount {
-  color: #4caf7d;
+  color: #0353a4;
 }
 
-/* EXPENSE CARD */
 .expense-card {
-  border-left: 4px solid #f06262;
+  border-left: 4px solid #023e7d;
 }
-
 .expense-card .card-amount {
-  color: #f06262;
+  color: #e63946;
 }
 
-/* BALANCE CARD */
 .balance-card {
-  border-left: 4px solid #6c63ff;
+  border-left: 4px solid #002855;
+}
+.balance-card .card-amount {
+  color: #001845;
 }
 
-.balance-card .card-amount {
-  color: #6c63ff;
+/* FORM INPUTS */
+.form-control,
+.form-select {
+  background-color: #f5f5f0;
+  color: #031536;
+  border: 1px solid #7d8597;
+}
+.form-control::placeholder {
+  color: #5c677d;
+}
+.form-control:focus,
+.form-select:focus {
+  background-color: #f5f5f0;
+  color: #0a2b69;
+  border-color: #0466c8;
+  box-shadow: none;
 }
 
 /* ADD BUTTON */
 #addBtn {
-  background-color: #6c63ff;
+  background-color: #0466c8;
   color: #ffffff;
   font-size: 15px;
   border: none;
   padding: 10px;
   border-radius: 8px;
 }
-
 #addBtn:hover {
-  background-color: #574fd6;
+  background-color: #0353a4;
+}
+
+/* TRANSACTION LIST */
+.list-group-item {
+  background-color: #ffffff;
+  border: 1px solid #7d8597;
+  border-radius: 8px;
+  color: #7f9dd5;
+  margin-bottom: 8px;
+  font-size: 14px;
+  padding: 12px;
+}
+.transaction-name {
+  font-weight: 600;
+  font-size: 15px;
+}
+.transaction-amount {
+  font-weight: 700;
+  font-size: 16px;
+}
+.income-amount {
+  color: #0353a4;
+}
+.expense-amount {
+  color: #e63946;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #5c677d;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0px;
+}
+.delete-btn:hover {
+  color: #e63946;
 }
